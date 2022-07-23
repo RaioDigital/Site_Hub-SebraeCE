@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #ea6981;
+  color: #ccc;
   text-decoration: none;
 }
 
@@ -558,10 +558,28 @@ img{
   margin-bottom: 15px;
 }
 
-button {
-  padding-bottom: 0px;
-  margin-bottom: 0;
-  border-radius: 30px;  
+
+
+.services .box .btn-wrap {
+  padding: 15px;
+  text-align: center; 
+}
+
+.services .box .btn-buy {
+  display: inline-block;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50px;
+  border: 2px solid #005db9;
+  color: #005db9;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.services .box .btn-buy:hover {
+  background: #005db9;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -813,6 +831,10 @@ button {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+#pricing {
+  background-color: #005db9;
+}
+
 .pricing .box {
   padding: 20px;
   background: #f9f9f9;
@@ -831,7 +853,7 @@ button {
   color: #493c3e;
 }
 .pricing .box h4 {
-  font-size: 42px;
+  font-size: 30px;
   color: #005db9;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
@@ -1648,11 +1670,7 @@ button {
     color: #87CEFA;
     text-decoration: none;
   }
-
   
-
-
-
 /*
   # Footer
   --------------------------------------------------------------*/
