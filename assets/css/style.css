@@ -311,24 +311,32 @@ h6 {
   display: block;
 }
 
+#btn-pesquisar{
+  color: #fff;
+  background-color: #87cefa;
+  border: 0;
+  outline: none;
+}
+
+#btn-pesquisar:hover{
+  color: #005db9;
+  background-color: #FFF;
+  font-weight: bold;   
+  border: 0; 
+}
+
+#form-pesquisar{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero-construcao {
-  width: 100%;
-  height: 80vh;
-  background-color:#fff; 
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  color: #fff;
-}
-
-#hero-construcao h2 {
-  color: #005db9;
-  font-weight: bold;
-  max-width: 100%;
-}
 
 #hero {
   width: 100%;
@@ -421,6 +429,23 @@ h6 {
     height: 150vh;
   }
 }
+
+/*
+# Section carrossel
+--------------------------------------------------------------*/
+
+#slide{  
+  padding-top: 80px;
+  padding-block-end: 0px;  
+  background-color: #005db9;
+}
+
+.d-block{
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1764,6 +1789,29 @@ img {
   color: #005db9;
   text-decoration: none;
 }
+
+/*CONSTRUÇÃO*/
+
+#construcao{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.img-const {
+  justify-content: center;
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+  height:auto;
+  border-radius: none;
+  padding:0;
+}
+
+
+
+
 /*
   # Footer
   --------------------------------------------------------------*/
@@ -1774,6 +1822,7 @@ img {
   background: #005db9;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
