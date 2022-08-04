@@ -1952,6 +1952,7 @@ img {
   height: 36px;
   transition: 0.3s;
 }
+
 #footer .social-links a:hover {
   background: #87cefa;
   color: #005db9;
