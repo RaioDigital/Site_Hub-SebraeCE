@@ -1,165 +1,419 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Sebrae - Ceará</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Início do aviso de consentimento de cookies OneTrust para sebraeceara.com.br -->
-    <script
-      type="text/javascript"
-      src="https://cdn.cookielaw.org/consent/dbf83714-eff7-4c13-94a1-7b334f4ff728/OtAutoBlock.js"
-    ></script>
-    <script
-      src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
-      type="text/javascript"
-      charset="UTF-8"
-      data-domain-script="dbf83714-eff7-4c13-94a1-7b334f4ff728"
-    ></script>
-    <script type="text/javascript">
-      function OptanonWrapper() {}
-    </script>
-    <!-- Final do aviso de consentimento de cookies OneTrust para sebraeceara.com.br -->
+  <title>Sebrae - Ceará</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link href="assets/imgs/sebrae.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-    <!-- Favicons -->
-    <link href="assets/imgs/sebrae.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
-    <!-- Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-  </head>
+<body>
 
-  <body style="background-color: #fff">
-    <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
-        <!-- <img src="/assets/imgs/sebrae50503.png" alt=""> -->
-        <!-- Uncomment below if you prefer to use an image logo
-       <a href="index.html" class="logo"><img src="/assets/imgs/sebrae50503.png" alt="Sebrae Ceará" class="img-fluid"></a> -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- <img src="/assets/imgs/sebrae50503.png" alt=""> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+       <a href="index.html" class="logo"><img src="/assets/imgs/sebrae50503.png" alt="Sebrae Ceará" class="img-fluid"></a>
+      
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="#slide">Home</a></li>
+        <!--
+          <li><a class="nav-link scrollto" href="#">Soluções</a></li>
+          <li><a class="nav-link scrollto" href="#">Material</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li> 
+        -->
+          <!---->         
+          <li><a class="nav-link scrollto" href="#pricings">Fale Conosco</a></li>
+          <!--
+          <div class="container-fluid">          
+            <form id="form-pesquisar" class="d-flex">
+              <input id="pesquisa" class="form-control me-2" type="text" onkeyup="pesquisar()" placeholder="Pesquisar" aria-label="Pesquisar">
+              <button id="btn-pesquisar"  class="btn" type="submit"><i class="bi bi-search"></i></button>
+            </form>            
+          </div>-->     
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
 
-        <nav id="navbar" class="navbar"></nav>
-        <!-- .navbar -->
+  <!-- ======= Hero Section ======= 
+  <section id="hero">
+    <div class="hero-container">      
+      <h1>Todas as soluções para sua empresa estão aqui!</h1>
+      <h2>Escolha a sua.</h2>
+      <a href="#services" class="btn-get-started scrollto">Vamos lá</a>
+    </div>
+  </section> -->
+  <!-- End Hero -->
+
+  <section id="slide">
+    <!-- Carousel -->
+<div id="slide-carrossel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <a type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></a>
+      <a type="button" data-bs-target="#demo" data-bs-slide-to="1"></a>
+      <a type="button" data-bs-target="#demo" data-bs-slide-to="2"></a>
+    </div>    
+    <!-- Slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <a href="https://lp.sebraeceara.com.br/analise-do-instagram"><img src="assets/imgs/top-Instagram.jpeg" alt="Analise do instagram" class="d-block" style="width:100%"></a> 
+        <div class="carousel-caption">
+        <!--
+          <h3>Teste</h3>
+          <p>Teste!</p> 
+        --> 
+        </div>
       </div>
-    </header>
-    <!-- End Header -->
+  
+      <div class="carousel-item">
+       <a href="https://lp.sebraeceara.com.br/jornada-do-credito"><img src="assets/imgs/top-jornada.jpeg" alt="Jornada do Crédito" class="d-block" style="width:100%"></a>
+        <div class="carousel-caption">
+        <!--
+          <h3>Teste</h3>
+          <p>Teste!</p> 
+        -->
+        </div> 
+      </div>
+  
+      <div class="carousel-item">
+        <a href="https://lp.sebraeceara.com.br/trilha-de-capacitacao-empreendedora"><img src="assets/imgs/top-trilha.jpeg" alt="Trilha" class="d-block" style="width:100%"></a>
+        <div class="carousel-caption">
+       <!--
+          <h3>Teste</h3>
+          <p>Teste!</p> 
+        -->
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </section>
 
-    <main id="main">
-      <!-- ======= Aproveite e inscreva-se! ==== -->
+  <main id="main">
 
-      <section id="services" class="services">
-        <div class="container">
-          <div id="img-topo-const" class="section-title">
-            <a href="index.html" class="logo"
-              ><img
-                src="/assets/imgs/sebrae50504.png"
-                alt="Sebrae Ceará"
-                class="img-fluid"
-                width="250px"
-            /></a>
+    <!-- ======= Aproveite e inscreva-se! ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">          
+          <h3>Aproveite e inscreva-se!</h3>          
+          <p>As soluções mais buscadas em destaque para o futuro do seu negócio.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/analise-instagran.png" class="img-fluid" alt="">
+              <h3>Análise do Instagram</h2>
+              <p>Faça do seu Instagram uma maquina de vendas, transformando seguidores em clientes.</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" class="btn-buy">CADASTRE-SE</a>
+              </div>              
+            </div>
           </div>
 
-          <div class="row">
-            <div
-              id="col-dir"
-              class="col-lg-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div>
-                <h3>
-                  Página em construção. <br />
-                  Em breve, confira aqui as soluções do Sebrae Ceará!
-                </h3>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/declaracao-mei.png" class="img-fluid" alt="">
+              <h4>Declaração Anual MEI</h4>
+              <p>MEI, faça sua declaração sem mistério. Siga o passo a passo e evite problema para o seu negócio.</p><br>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/declaracao-mei" target="_blank" class="btn-buy">CADASTRE-SE</a>
               </div>
             </div>
+          </div>
 
-            <div
-              class="col-lg-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div id="construcao">
-                <img
-                  id="img-central"
-                  src="assets/imgs/SebraeConstrução-hub6.jpg"
-                  alt="construcao"
-                  class="img-fluid"
-                />
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/whatsapp-business.png" class="img-fluid" alt="">
+              <h4>WhatsApp Business</h4>
+              <p>Aumente suas vendas e aprenda a utilizar o Whatsapp Business como estratégia de atendimento aos seus clientes.</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/whatsapp-business" target="_blank" class="btn-buy">CADASTRE-SE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/googlemeunegocio.png" class="img-fluid" alt="">
+              <h4>Google Meu Negócio</h4>
+              <p>Que tal uma vitrine da sua empresa na 1ª página do Google ? Com nossa consultoria GRATUITA é possível!</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/google-meu-negocio" target="_blank" class="btn-buy">CADASTRE-SE</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section id="footer-construcao">
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="https://twitter.com/CESebrae" target="_blank" class="twitter"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/SebraeCE"
-            target="_blank"
-            class="facebook"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/sebraece/"
-            target="_blank"
-            class="instagram"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/company/sebraece/"
-            target="_blank"
-            class="linkedin"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
+
+        <br>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/empretec.png" class="img-fluid" alt="">
+              <h4>Empretec</h4>
+              <p>A sua oportunidade de desenvolvimento do perfil empreendedor.</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/lp-empretec" target="_blank" class="btn-buy">CADASTRE-SE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/voltaporcima.png" class="img-fluid" alt="">
+              <h4>Volta Por Cima</h4>
+              <p>Não tem crise que resista à garra e à capacidade do empreendedor de dar a volta por cima..</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/volta-por-cima" target="_blank" class="btn-buy">CADASTRE-SE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/radar.png" class="img-fluid" alt="">
+              <h4>Radar Sebrae</h4>
+              <p>Tenha a direção certa da ideia à implantação do seu negócio.</p>
+              <div class="btn-wrap">
+                <a href="https://radarsebrae.com.br/" target="_blank" class="btn-buy">CADASTRE-SE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="box">
+              <img src="assets/imgs/sebraesuaempresa.png" class="img-fluid" alt="">
+              <h4>Sebrae Na Sua Empresa</h4>
+              <p>Ganhe uma consultoria gratuita de Marketing, Finanças ou Planejamento Empresarial.</p>
+              <div class="btn-wrap">
+                <a href="#" target="_blank" class="btn-buy">CADASTRE-SE</a>
+              </div>
+            </div>
+          </div>
+        </div>       
+
+      </div>
+    </section><!-- End Aproveite e inscreva-se! -->
+
+    <!-- ======= Agende seu atendimento gratuito ======= 
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="text-center">
+          <h3>Agende seu atendimento gratuito</h3>
+          <p>Fale com nossos especialistas e receba orientações para abrir ou melhorar seu negócio. De forma online ou presencial..</p>
+          <a class="cta-btn" href="https://portaldeservicos.ce.sebrae.com.br/accounts/login/?next=https://agendador.ce.sebrae.com.br/#/" target="_blank" >AGENDE AGORA !</a>
         </div>
-        <br /><br />
-        <div
-          class="social-links text-center text-md-right pt-3 pt-md-0"
-          style="color: #005db9"
-        >
-          <h6>Todos os direitos reservados &copy; Sebrae Ceará 2022.</h6>
+      </div> -->
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Section Cursos e Consultorias ======= -->
+    <section id="cursos_consul" class="ccs">
+      <div class="container text-center">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="img-consultoria">
+              <a href="https://www.sebrae.com.br/sites/PortalSebrae/cursoseeventos?codUf=6" target="_blank"><img src="assets/imgs/cursos2.jpg" class="img-fluid" alt=""></a>           
+            </div>  
+          </div>
+
+          <div class="col-lg-6">
+            <div class="img-consultoria">
+              <a href="https://consultoria.sebrae.com.br/" target="_blank"><img src="assets/imgs/consultoria2.jpg" class="img-fluid" alt=""></a> 
+            </div>           
+          </div>
+
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <!-- ======= Confira o que vem por aí... ======= -->    
+    <section id="pricing" class="pricing">
+      <div class="container">
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+        <div class="section-title">          
+          <h3 style="color: #fff;">Confira o que vem por aí...</h3>          
+        </div>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <img src="assets/imgs/empretecfortaleza.png" class="img-fluid" alt="">
+              <h4>Empretec</h4>
+              <p>Garanta 60 horas de capacitação presencial para desenvolver o seu perfil empreendedor.</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/lp-empretec" target="_blank" class="btn-buy">INSCREVA-SE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <img src="assets/imgs/jornadadecredito.png" class="img-fluid" alt="">
+              <h4>Jornada do Crédito</h4>
+              <p>Seja orientado em como tomar decisões assertivas para obter crédito de forma organizada e melhorar a gestão financeira do seu negócio sem entrar em dívidas.</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/jornada-do-credito" target="_blank" class="btn-buy">QUERO CONHECER</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <img src="assets/imgs/semenadomei.png" class="img-fluid" alt="">
+              <h4>Semana do MEI</h4>
+              <p>Participe do maior evento nacional do MEI este ano está melhor do que nunca!</p>
+              <div class="btn-wrap">
+                <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" class="btn-buy">QUERO PARTICIPAR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- End Pricing Section -->
+
+    <!-- ======= Você prefere presencial ou on-line? ======= -->
+    <section id="pricings" class="pricing">
+      <div class="container">
+        <div class="section-title">          
+          <h3 >Você prefere <span>atendimento presencial ou on-line?</span></h3>          
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <img src="assets/imgs/whatsapp.png" class="img-fluid" style="width:75px;" alt="">              
+              <p>Entre em contato com o <strong>SEBRAE via WhatsApp</strong> e tire suas dúvidas.</p>
+              <div class="btn-wrap">
+                <a href="https://api.whatsapp.com/send?phone=+5508005700800" target="_blank" class="btn-buy">Fale com o SEBRAE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <img src="assets/imgs/telefone.png" class="img-fluid" style="width:75px;" alt="">
+              <p>Fale com um de nossos atendentes que estarão <strong>24h</strong> para te ajudar.
+                <br> <strong>Ligue 0800 570 0800</strong></p>
+              <div class="btn-wrap">
+                <a href="https://api.whatsapp.com/send?phone=+5508005700800" target="_blank" class="btn-buy">Fale com o Atendente</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <img src="assets/imgs/calendario.png" class="img-fluid" target="_blank" style="width:75px;"  alt="">
+              <p>Faça seu agendamento com um de nossos especialistas.</p>
+              <div class="btn-wrap">
+                <a href="https://portaldeservicos.ce.sebrae.com.br/accounts/login/?next=https://agendador.ce.sebrae.com.br/#/" target="_blank" class="btn-buy">Agende seu atendimento</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+  <!-- End Pricing Section -->
+
+ <!-- ======= Sob-Footer ======= -->
+ <section id="sob-footer">
+  <div></div>
+  <div class="texto_sob-footer">
+    <h3><strong>Fique por dentro de todas as novidades<br>
+      do mercado e tenha os melhores cursos<br>
+      na palma de sua mão!</strong></h3>
+  </div>
+
+  <div>
+    <h5><strong>Baixe nosso aplicativo gratuito</strong></h5>
+  </div>
+
+  <div class="social-links text-center text-md-right pt-3 pt-md-0">        
+    <a href="https://bit.ly/aplicativosebrae" target="_blank" class="android"><i class="bi bi-android2"></i></a>
+    <a href="https://apps.apple.com/br/app/sebrae/id1482839375" target="_blank" class="apple"><i class="bi bi-apple"></i></a>        
+  </div>
+
+</section>  
+<!-- ======= Fim Sob-Footer ======= -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer"> 
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          Todos os direitos reservados &copy;  <strong><span>Sebrae Ceará</span></strong>.          
+        </div>
+        <div class="credits">
+          Site Projetado e Desenvolvido por <a href="#">Raio Digital</a>
+        </div>
+      </div>
+      <div>
+        <img class="logo-footer" src="assets/imgs/sebrae50503.png" alt="Sebrae Ceará">
+      </div>     
+
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com/CESebrae" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/SebraeCE" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/sebraece/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/sebraece/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
