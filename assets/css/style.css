@@ -87,6 +87,29 @@ h6 {
   padding: 12px 0;
 }
 
+
+/* ------ Redes Sociais ------ 
+#header .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #005db9;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header .social-links a:hover {
+  background: #87cefa;
+  color: #005db9;
+  text-decoration: none;
+}*/
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
