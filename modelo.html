@@ -25,8 +25,66 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
+
 <body>
 
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- <img src="/assets/imgs/sebrae50503.png" alt=""> -->
+       <a href="index.html" class="logo"><img src="/assets/imgs/sebrae50503.png" alt="Sebrae Ceará" class="img-fluid"></a>
+      <!----> 
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="#slide">Home</a></li>        
+          <li><a class="nav-link scrollto" href="solucoes.html">Soluções</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Material</a></li>                                 
+          <li><a class="nav-link scrollto" href="#pricings">Fale Conosco</a></li>
+          <li><a class="active" href="#">Blog</a></li> 
+          <!--PESQUISAR -->
+          <div class="container-fluid">          
+            <form id="form-pesquisar" class="d-flex">
+              <input id="pesquisa" class="form-control me-2" type="text" onkeyup="pesquisar()" placeholder="Pesquisar" aria-label="Pesquisar">
+              <button id="btn-pesquisar"  class="btn" type="submit"><i class="bi bi-search"></i></button>
+            </form>            
+          </div>
+          <!--
+          <script async src="https://cse.google.com/cse.js?cx=0222ffac51b9c4ac7">
+          </script>
+          <div class="gcse-search"></div>
+          -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar 
+      
+      onfocus="defaultInput(this)" onblur="clearInput(this)"
+      -->
+    </div>
+  </header><!-- End Header -->
+
+  <section id="slide">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://lp.sebraeceara.com.br/trilha-de-capacitacao-empreendedora"><img src="assets/imgs/top-trilha.jpg" alt="Trilha" class="d-block" style="width:100%"></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://lp.sebraeceara.com.br/analise-do-instagram"><img src="assets/imgs/top-Instagram.jpeg" alt="Analise do instagram" class="d-block" style="width:100%"></a> 
+        </div>
+        <div class="carousel-item">
+          <a href="https://lp.sebraeceara.com.br/jornada-do-credito"><img src="assets/imgs/top-jornada.jpeg" alt="Jornada do Crédito" class="d-block" style="width:100%"></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
         <main id="main">
 
         <!-- ======= Aproveite e inscreva-se! ======= -->
