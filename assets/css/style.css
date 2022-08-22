@@ -672,6 +672,10 @@ img {
   background: #005db9;
   color: #fff;
 }
+
+#textocontainer {
+  text-align: justify;
+}
 /*------------------------------------
 # Features
 -------------------------------------*/
