@@ -1,0 +1,103 @@
+/*-------- MATERIAIS DOWNLOADS ----*/
+#materiais {
+    background-color: #005db9;
+  }
+  
+  .materiais .boxs {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #f9f9f9;
+  }
+  .materiais .boxs h3 {
+    font-weight: 400;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #493c3e;
+  }
+  .materiais .boxs h4 {
+    font-size: 30px;
+    color: #005db9;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  .materiais .boxs h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  .materiais .boxs h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .materiais .boxs ul {
+    padding: 0;
+    list-style: none;
+    color: #493c3e;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .materiais .boxs ul li {
+    padding-bottom: 16px;
+  }
+  .materiais .boxs ul i {
+    color: #005db9;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  .materiais .boxs ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  .materiais .boxs .btn-wrap {
+    padding: 15px;
+    text-align: center;  
+  }
+  .materiais .boxs .btn-buy {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #005db9;
+    color: #005db9;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  .materiais .boxs .btn-buy:hover {
+    background: #005db9;
+    color: #fff;
+  }
+  .materiais .recommended {
+    border-color: #005db9;
+  }
+  .materiais .recommended .btn-buy {
+    background: #005db9;
+    color: #fff;
+  }
+  .materiais .recommended .btn-buy:hover {
+    background: #d91e42;
+    border-color: #d91e42;
+  }
+  .materiais .recommended-badge {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 13px;
+    padding: 3px 25px 6px 25px;
+    background: #fce6ea;
+    color: #005db9;
+    border-radius: 50px;
+  }
+  
