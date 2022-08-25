@@ -2120,7 +2120,6 @@ img {
   text-decoration: none;
 }
 
-
 /*PESQUISAR DO MENU*/
 .search{
   color: #005db9;
@@ -2141,7 +2140,262 @@ img {
 .search:focus{
   width: 240px;
   border-radius: 4px;
-  box-shadow: 0 0 0 2px #005db9;;
+  box-shadow: 0 0 0 2px #005db9;
   outline: none;
   cursor: auto;
 }
+
+/* -------------- SLIDES ------------*/
+
+/* SLIDES-BOX*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card{
+  border-radius: 10px;
+  background-color: #FFF;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #005db9;
+  border-radius: 10px 10px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #005db9;
+}
+.overlay::after{
+  border-radius: 0 10px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #005db9;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #005db9;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+  color: #ccc;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #fff;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #005db9;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+#card-box{
+  text-align: center;
+  
+}
+
+#btn-box{
+  padding: 15px;
+  text-align: center;  
+}
+
+#btn-buy{  
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #005db9;
+  color: #005db9;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#btn-buy:hover {
+  background: #005db9;
+  color: #fff;
+}
+
+/* ------ slide-box -------- */
+
+#slide-box {
+  background-color: #005db9;
+}
+
+.slide-box .boxs {
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #f9f9f9;
+}
+
+.slide-box .boxs h3 {
+  font-weight: 400;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #493c3e;
+}
+
+.slide-box .boxs h4 {
+  font-size: 30px;
+  color: #005db9;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.slide-box .boxs h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.slide-box .boxs h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+.slide-box .boxs ul {
+  padding: 0;
+  list-style: none;
+  color: #493c3e;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+.slide-box .boxs ul li {
+  padding-bottom: 16px;
+}
+.slide-box .boxs ul i {
+  color: #005db9;
+  font-size: 18px;
+  padding-right: 4px;
+}
+.slide-box .boxs ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.slide-box .boxs .btn-wrap {
+  padding: 15px;
+  text-align: center;  
+}
+.slide-box .boxs .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #005db9;
+  color: #005db9;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.slide-box .boxs .btn-buy:hover {
+  background: #005db9;
+  color: #fff;
+}
+.slide-box .recommended {
+  border-color: #005db9;
+}
+.slide-box .recommended .btn-buy {
+  background: #005db9;
+  color: #fff;
+}
+.slide-box .recommended .btn-buy:hover {
+  background: #d91e42;
+  border-color: #d91e42;
+}
+

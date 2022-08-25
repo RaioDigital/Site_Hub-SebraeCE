@@ -1,9 +1,9 @@
-/*-------- MATERIAIS DOWNLOADS ----*/
-#materiais {
+/*-------- slide-box DOWNLOADS ----*/
+#slide-box {
     background-color: #005db9;
   }
   
-  .materiais .boxs {
+  .slide-box .boxs {
     padding: 20px;
     background: #f9f9f9;
     text-align: center;
@@ -12,7 +12,7 @@
     overflow: hidden;
     border: 2px solid #f9f9f9;
   }
-  .materiais .boxs h3 {
+  .slide-box .boxs h3 {
     font-weight: 400;
     padding: 15px;
     margin-top: 15px;
@@ -20,24 +20,24 @@
     font-weight: 600;
     color: #493c3e;
   }
-  .materiais .boxs h4 {
+  .slide-box .boxs h4 {
     font-size: 30px;
     color: #005db9;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 20px;
   }
-  .materiais .boxs h4 sup {
+  .slide-box .boxs h4 sup {
     font-size: 20px;
     top: -15px;
     left: -3px;
   }
-  .materiais .boxs h4 span {
+  .slide-box .boxs h4 span {
     color: #bababa;
     font-size: 16px;
     font-weight: 300;
   }
-  .materiais .boxs ul {
+  .slide-box .boxs ul {
     padding: 0;
     list-style: none;
     color: #493c3e;
@@ -45,23 +45,23 @@
     line-height: 20px;
     font-size: 14px;
   }
-  .materiais .boxs ul li {
+  .slide-box .boxs ul li {
     padding-bottom: 16px;
   }
-  .materiais .boxs ul i {
+  .slide-box .boxs ul i {
     color: #005db9;
     font-size: 18px;
     padding-right: 4px;
   }
-  .materiais .boxs ul .na {
+  .slide-box .boxs ul .na {
     color: #ccc;
     text-decoration: line-through;
   }
-  .materiais .boxs .btn-wrap {
+  .slide-box .boxs .btn-wrap {
     padding: 15px;
     text-align: center;  
   }
-  .materiais .boxs .btn-buy {
+  .slide-box .boxs .btn-buy {
     display: inline-block;
     padding: 8px 40px 10px 40px;
     border-radius: 50px;
@@ -73,22 +73,22 @@
     font-weight: 600;
     transition: 0.3s;
   }
-  .materiais .boxs .btn-buy:hover {
+  .slide-box .boxs .btn-buy:hover {
     background: #005db9;
     color: #fff;
   }
-  .materiais .recommended {
+  .slide-box .recommended {
     border-color: #005db9;
   }
-  .materiais .recommended .btn-buy {
+  .slide-box .recommended .btn-buy {
     background: #005db9;
     color: #fff;
   }
-  .materiais .recommended .btn-buy:hover {
+  .slide-box .recommended .btn-buy:hover {
     background: #d91e42;
     border-color: #d91e42;
   }
-  .materiais .recommended-badge {
+  .slide-box .recommended-badge {
     position: absolute;
     top: 5px;
     left: 50%;
