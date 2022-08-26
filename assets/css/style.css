@@ -87,29 +87,6 @@ h6 {
   padding: 12px 0;
 }
 
-
-/* ------ Redes Sociais ------ 
-#header .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #fff;
-  color: #005db9;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#header .social-links a:hover {
-  background: #87cefa;
-  color: #005db9;
-  text-decoration: none;
-}*/
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -512,7 +489,7 @@ section {
 
 /*--------------------------------------------------------------
 # About
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -560,8 +537,8 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
-/*--------------------------------------------------------------
+*/
+/*------------
 # Services
 --------------------------------------------------------------*/
 .services {
@@ -669,7 +646,7 @@ img {
 
 /*------------------------------------
 # Features
--------------------------------------*/
+-------------------------------------
 
 .features {
   padding-top: 20px;
@@ -700,7 +677,7 @@ img {
 .features .box:hover a {
   color: #005db9;
 }
-
+*/
 /*--------------------------------------------------------------
 # Curso e Consultoria
 --------------------------------------------------------------*/
@@ -739,7 +716,7 @@ img {
 
 /*--------------------------------------------------------------
 # Cta
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
     url("../imgs/sebrae-section2.png") center center;
@@ -777,6 +754,8 @@ img {
     background-attachment: fixed;
   }
 }
+*/
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -865,7 +844,7 @@ img {
 
 /*--------------------------------------------------------------
 # Portfolio Details
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .portfolio-details {
   padding-top: 40px;
 }
@@ -923,6 +902,7 @@ img {
   padding: 0;
 }
 
+*/
 
 /*--- MATERIAIS DOWNLOADS ----*/
 
@@ -1133,310 +1113,7 @@ img {
   border-radius: 50px;
 }
 
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
-.faq {
-  padding: 60px 0;
-}
-.faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-.faq .faq-list li {
-  border-bottom: 1px solid #f1eeef;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-.faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #005db9;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  padding-left: 25px;
-  cursor: pointer;
-  color: #d01d3f;
-  transition: 0.3s;
-}
-.faq .faq-list i {
-  font-size: 16px;
-  position: absolute;
-  left: 0;
-  top: -2px;
-}
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 25px;
-}
-.faq .faq-list .icon-show {
-  display: none;
-}
-.faq .faq-list .collapsed {
-  color: black;
-}
-.faq .faq-list .collapsed:hover {
-  color: #005db9;
-}
-.faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-.faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
-}
-@media (min-width: 1280px) {
-  .faq .container {
-    padding: 0 120px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team {
-  background: #fff;
-  padding: 60px 0;
-}
-.team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.85);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.team .member .social a {
-  transition: color 0.3s;
-  color: #493c3e;
-  margin: 0 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.team .member .social a i {
-  line-height: 0;
-}
-.team .member .social a:hover {
-  color: #005db9;
-}
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-.team .member .member-info {
-  padding: 25px 15px;
-}
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #493c3e;
-}
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
-}
-.team .member:hover .social {
-  opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
-.contact .info i {
-  font-size: 20px;
-  color: #005db9;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #fdeff2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #493c3e;
-}
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #816a6e;
-}
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #005db9;
-  color: #fff;
-}
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #005db9;
-}
-.contact .php-email-form input {
-  height: 44px;
-}
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-.contact .php-email-form button[type="submit"] {
-  background: #005db9;
-  border: 0;
-  padding: 10px 28px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-.contact .php-email-form button[type="submit"]:hover {
-  background: #d01d3f;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #f6f4f4;
-  margin-top: 67px;
-}
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 50px;
-  }
-}
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 600;
-}
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #655356;
-  content: "/";
-}
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
+/*------------------------ # Blog   --------------*/
 .blog {
   padding: 40px 0 20px 0;
 }
