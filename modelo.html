@@ -21,8 +21,13 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+ 
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -31,7 +36,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
       <!-- <img src="/assets/imgs/sebrae50503.png" alt=""> -->
-       <a href="index.html" class="logo"><img src="/assets/imgs/sebrae50503.png" alt="Sebrae Ceará" class="img-fluid"></a>
+       <a href="index.html" class="logo"><img src="assets/imgs/logo-sebrae-menu.png" alt="Sebrae Ceará" class="img-fluid"></a>
       <!----> 
       <nav id="navbar" class="navbar">
         <ul>
@@ -63,13 +68,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a href="https://lp.sebraeceara.com.br/trilha-de-capacitacao-empreendedora"><img src="assets/imgs/top-trilha.jpg" alt="Trilha" class="d-block" style="width:100%"></a>
+          <a href="https://lp.sebraeceara.com.br/trilha-de-capacitacao-empreendedora"><img src="assets/imgs-webp/top_instagram.webp" alt="Trilha" class="d-block" style="width:100%"></a>
         </div>
         <div class="carousel-item">
-          <a href="https://lp.sebraeceara.com.br/analise-do-instagram"><img src="assets/imgs/top-Instagram.jpeg" alt="Analise do instagram" class="d-block" style="width:100%"></a> 
+          <a href="https://lp.sebraeceara.com.br/analise-do-instagram"><img src="assets/imgs-webp/top_jornada.webp" alt="Analise do instagram" class="d-block" style="width:100%"></a> 
         </div>
         <div class="carousel-item">
-          <a href="https://lp.sebraeceara.com.br/jornada-do-credito"><img src="assets/imgs/top-jornada.jpeg" alt="Jornada do Crédito" class="d-block" style="width:100%"></a>
+          <a href="https://lp.sebraeceara.com.br/jornada-do-credito"><img src="assets/imgs-webp/top_trilha.webp" alt="Jornada do Crédito" class="d-block" style="width:100%"></a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -84,8 +89,134 @@
     </section>
 
   <main id="main">
+<!-- ======= LANDPAGES ======= -->
+        <!--SLIDE-BOX -->
+        <section id="slide-box">
 
-    <!-- ======= LANDPAGES ======= -->
+          <div class="section-title">          
+            <h3 style="color: #005db9;">Conheça as soluções digitais do Sebrae Ceará</h3>  
+            <p style="color: #005db9;">As soluções mais buscadas em destaque para o futuro do seu negócio.</p>        
+          </div>
+       
+          <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+    
+                  <!--SLIDE-1 - Instagram-->             
+                  <div id="card" class="card swiper-slide">                   
+                      <div id="boxes" class="boxs">
+                        <img src="assets/imgs-webp/lp_instagram-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                      </div> 
+                      <div id="btn-box" class="btn-wrap">
+                        <p>Melhore dos resultados da sua empresa e faça seu negócio faturar mais. <br><br>
+                        Bônus: 4 ferramentas exclusivas de planejamento e gestão.</p>
+                        <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                      </div>                        
+                  </div> 
+    
+                  <!--SLIDE-2 - Gestão -->                                  
+                  <div id="card" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_consultoria_gestao-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">
+                      <p>Torne o seu perfil do Instagram mais atrativo e profissional, conquistando seguidores e vendendo mais. <br>
+                      Bônus: Calculadora de engajamento + Kit de planejamento de conteúdo.</p>
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                </div>                 
+                  
+                  <!--SLIDE-3 - Whatsapp -->
+                  <div id="card" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_whatsapp-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">
+                      <p>Aprenda a utilizar o WhatsApp Business como estratégia de vendas para o seu negócio. <br>
+                      Bônus: Ebook - O que são canais de vendas.</p>
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                </div> 
+                  
+                  <!--SLIDE-4 - Perfil -->
+                  <div id="card" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_perfil_empresa-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">
+                      <p>Seja achado facilmente pelos seus clientes no Google. <br>
+                      Bônus: Ebook - Como alcançar novos clientes para o seu negócio e aumentar suas vendas no digital</p>
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                </div> 
+    
+                     <!--SLIDE-5 - Marca registrada -->
+                     <div id="card" class="card swiper-slide">                   
+                      <div id="boxes" class="boxs">
+                        <img src="assets/imgs-webp/lp_marca_registrada-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                      </div> 
+                      <div id="btn-box" class="btn-wrap">
+                        <p>Conheça as vantagens e importância de registrar a marca da sua empresa. <br><br>
+                        Bônus: Ebook - Posicionamento e administração da marca.</p>
+                        <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                      </div>                        
+                    </div> 
+    
+                     <!--SLIDE-6 - Trilha -->
+                    <div id="card" class="card swiper-slide">                   
+                      <div id="boxes" class="boxs">
+                        <img src="assets/imgs-webp/lp_trilha.webp" class="img-fluid" alt="Sebrae-ce">          
+                      </div> 
+                      <div id="btn-box" class="btn-wrap">
+                        <p>Tudo o que você precisa saber para alcançar o seu crescimento empresarial. <br><br>
+                        Bônus: 4 cursos gratuitos + checklist de avaliação de performance em vendas.</p>
+                        <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                      </div>                        
+                    </div> 
+    
+                     <!--SLIDE-7 - Mulheres -->
+                     <div id="card" class="card swiper-slide">                   
+                      <div id="boxes" class="boxs">
+                        <img src="assets/imgs-webp/lp_mulheres-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                      </div> 
+                      <div id="btn-box" class="btn-wrap">
+                        <p>Assuma a liderança do seu negócio e se torne uma empreendedora de sucesso. <br>
+                        Bônus: Ebook - O que toda mulher deveria saber sobre empreendedorismo e liderança + 4 Cursos Online.</p>
+                        <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                      </div>                        
+                  </div> 
+    
+                    <!--SLIDE-8 - Sebrae na sua empresa -->
+                    <div id="card" class="card swiper-slide">                   
+                      <div id="boxes" class="boxs">
+                        <img src="assets/imgs-webp/lp_sebrae_sua_empesa-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                      </div> 
+                      <div id="btn-box" class="btn-wrap">
+                        <p>Aumente os lucros da sua empresa no digital com a visita de um especialista do Sebrae.
+                          Bônus: Infográfico "5 passos para fazer a Transformação Digital do seu negócio."</p>
+                        <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                      </div>                        
+                  </div> 
+                     <!--SLIDE-9
+                     <div class="card swiper-slide">                   
+                      <div id="boxes" class="boxs">
+                        <img src="assets/imgs-webp/lp_consultoria_gestao-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                      </div> 
+                      <div id="btn-box" class="btn-wrap">
+                        <p>Melhore dos resultados da sua empresa e faça seu negócio faturar mais.
+                        Bônus: 4 ferramentas exclusivas de planejamento e gestão.</p>
+                        <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                      </div>                        
+                  </div> -->         
+            </div>
+    
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>      
+        </section>
+
+    <!-- ======= LANDPAGES =======
     <section id="services" class="services">
       <div class="container">
 
@@ -102,7 +233,7 @@
               <h3>Análise do Instagram</h2>
               <p>Faça do seu Instagram uma maquina de vendas, transformando seguidores em clientes.</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>              
             </div>
           </div>
@@ -113,7 +244,7 @@
               <h4>Consultoria de Gestão</h4>
               <p>Chegou a hora de melhorar os resultados da sua empresa e fazer o seu negócio faturar mais.</p><br>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/consultoria-de-gestao" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/consultoria-de-gestao" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -124,7 +255,7 @@
               <h4>WhatsApp Business</h4>
               <p>Aumente suas vendas e aprenda a utilizar o Whatsapp Business como estratégia de atendimento aos seus clientes.</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/whatsapp-business" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/whatsapp-business" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -135,7 +266,7 @@
               <h4>Google Meu Negócio</h4>
               <p>Que tal uma vitrine da sua empresa na 1ª página do Google ? Com nossa consultoria GRATUITA é possível!</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/google-meu-negocio" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/google-meu-negocio" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -152,7 +283,7 @@
               <p>Conheça essas e muitas outras vantagens de registrar
                 sua marca com a consultoria gratuita do Sebrae.</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/marca-registrada" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/marca-registrada" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -163,7 +294,7 @@
               <h4>Mentoria de produtividade e inovação</h4>
               <p>Prepare sua empresa para as mudanças e tendências de mercado trazendo inovação e mais produtividade aos seus negócios.</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/mentoria-produtividade-e-inovacao-sebrae" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/mentoria-produtividade-e-inovacao-sebrae" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -174,7 +305,7 @@
               <h4>Mulheres que movimentam</h4>
               <p>E mais bônus exclusivos para desenvolver mais confiança e fortalecer o seu perfil empreendedor com foco no resultado do seu negócio.</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/mulheres-que-movimentam-2022" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/mulheres-que-movimentam-2022" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -185,7 +316,7 @@
               <h4>Sebrae na sua Empresa</h4>
               <p>Ganhe uma consultoria gratuita de Marketing, Finanças ou Planejamento Empresarial.</p>
               <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/sebrae-na-sua-empresa" target="_blank" class="btn-buy">CADASTRE-SE</a>
+                <a href="https://lp.sebraeceara.com.br/sebrae-na-sua-empresa" target="_blank" class="btn-buy">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -193,52 +324,105 @@
 
       </div>
     </section>
-    <!-- END LANDPAGES -->
+     END LANDPAGES -->
 
     <!-- ======= MATERIAIS DOWNLOADS ======= -->    
-    <section id="materiais" class="materiais">
-      <div class="container">
+    <section id="slide-box-mat">
+     
 
         <div class="section-title">          
-          <h3 style="color: #fff;">Confira nossos materiais gratuitos...</h3>          
+          <h3 style="color: #fff;">Confira nosso conteúdo disponível para download...</h3>          
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="boxs">
-              <img src="assets/imgs/fazdownload.jpg" class="img-fluid" alt="">
-              <h4>E-book</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat.</p>
-              <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/lp-empretec" target="_blank" class="btn-buy">DOWNLOAD</a>
-              </div>
-            </div>
+     
+        <div class="slide-container swiper">
+          <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+  
+                <!--SLIDE-1 - -->             
+                <div id="card-mat" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_instagram-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">                     
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                </div> 
+  
+                <!--SLIDE-2 - -->                                  
+                <div id="card-mat" class="card swiper-slide">                   
+                  <div id="boxes" class="boxs">
+                    <img src="assets/imgs-webp/lp_consultoria_gestao-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                  </div> 
+                  <div id="btn-box" class="btn-wrap">                    
+                    <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                  </div>                        
+              </div>                 
+                
+                <!--SLIDE-3 -  -->
+                <div id="card-mat" class="card swiper-slide">                   
+                  <div id="boxes" class="boxs">
+                    <img src="assets/imgs-webp/lp_whatsapp-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                  </div> 
+                  <div id="btn-box" class="btn-wrap">                   
+                    <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                  </div>                        
+              </div> 
+                
+                <!--SLIDE-4 -  -->
+                <div id="card-mat" class="card swiper-slide">                   
+                  <div id="boxes" class="boxs">
+                    <img src="assets/imgs-webp/lp_perfil_empresa-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                  </div> 
+                  <div id="btn-box" class="btn-wrap">                    
+                    <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                  </div>                        
+              </div> 
+  
+                   <!--SLIDE-5 -  -->
+                   <div id="card-mat" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_marca_registrada-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">                      
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                  </div> 
+  
+                   <!--SLIDE-6 -  -->
+                  <div id="card-mat" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_trilha.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">                     
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                  </div> 
+  
+                   <!--SLIDE-7 -  -->
+                   <div id="card-mat" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_mulheres-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">                     
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                </div> 
+  
+                  <!--SLIDE-8 -  -->
+                  <div id="card-mat" class="card swiper-slide">                   
+                    <div id="boxes" class="boxs">
+                      <img src="assets/imgs-webp/lp_sebrae_sua_empesa-min.webp" class="img-fluid" alt="Sebrae-ce">          
+                    </div> 
+                    <div id="btn-box" class="btn-wrap">                    
+                      <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" id="btn-buy" class="btn-buy">DOWNLOAD</a>
+                    </div>                        
+                </div>                     
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="boxs">
-              <img src="assets/imgs/fazdownload.jpg" class="img-fluid" alt="">
-              <h4>Planilha</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat.</p>
-              <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/jornada-do-credito" target="_blank" class="btn-buy">DOWNLOAD</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="boxs">
-              <img src="assets/imgs/fazdownload.jpg" class="img-fluid" alt="">
-              <h4>Inforgráfico</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat.</p>
-              <div class="btn-wrap">
-                <a href="https://lp.sebraeceara.com.br/semana-do-mei" target="_blank" class="btn-buy">DOWNLOAD</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
+          <div id="swiper-next" class="swiper-button-next swiper-navBtn"></div>
+          <div id="swiper-prev" class="swiper-button-prev swiper-navBtn"></div>
+          <div id="swiper-pagina" class="swiper-pagination"></div>
+      </div>      
     </section> 
     <!-- END MATERIAIS DOWNLOADS -->
 
@@ -249,13 +433,13 @@
 
           <div class="col-lg-6">
             <div class="img-consultoria">
-              <a href="https://www.sebrae.com.br/sites/PortalSebrae/cursoseeventos?codUf=6" target="_blank"><img src="assets/imgs/cursos2.jpg" class="img-fluid" alt=""></a>           
+              <a href="https://www.sebrae.com.br/sites/PortalSebrae/cursoseeventos?codUf=6" target="_blank"><img src="assets/imgs-webp/cursos.webp" class="img-fluid" alt=""></a>           
             </div>  
           </div>
 
           <div class="col-lg-6">
             <div class="img-consultoria">
-              <a href="https://consultoria.sebrae.com.br/" target="_blank"><img src="assets/imgs/consultoria2.jpg" class="img-fluid" alt=""></a> 
+              <a href="https://consultoria.sebrae.com.br/" target="_blank"><img src="assets/imgs-webp/consultoria.webp" class="img-fluid" alt=""></a> 
             </div>           
           </div>
 
@@ -264,49 +448,7 @@
     </section>
     <!-- ======= END CURSOS E CONSULTORIAS ======= -->
 
-    <!-- ======= ATENDIMENTO PRESENCIAL E ON-LINE ======= -->
-    <section id="pricings" class="pricing">
-      <div class="container">
-        <div class="section-title">          
-          <h3 >Você prefere <span>atendimento presencial ou on-line?</span></h3>          
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="box">
-              <img src="assets/imgs/whatsapp.png" class="img-fluid" style="width:75px;" alt="">              
-              <p>Entre em contato com o <strong>SEBRAE via WhatsApp</strong> e tire suas dúvidas.</p>
-              <div class="btn-wrap">
-                <a href="https://api.whatsapp.com/send?phone=+5508005700800" target="_blank" class="btn-buy">Fale com o SEBRAE</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box">
-              <img src="assets/imgs/telefone.png" class="img-fluid" style="width:75px;" alt="">
-              <p>Fale com um de nossos atendentes que estarão <strong>24h</strong> para te ajudar.
-                <br> <strong>Ligue 0800 570 0800</strong></p>
-              <div class="btn-wrap">
-                <a href="https://api.whatsapp.com/send?phone=+5508005700800" target="_blank" class="btn-buy">Fale com o Atendente</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box">
-              <img src="assets/imgs/calendario.png" class="img-fluid" target="_blank" style="width:75px;"  alt="">
-              <p>Faça seu agendamento com um de nossos especialistas.</p>
-              <div class="btn-wrap">
-                <a href="https://portaldeservicos.ce.sebrae.com.br/accounts/login/?next=https://agendador.ce.sebrae.com.br/#/" target="_blank" class="btn-buy">Agende seu atendimento</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
-  <!-- ======= END ATENDIMENTO PRESENCIAL E ON-LINE ======= -->
-
+   
  <!-- ======= SUB-FOOTER ======= -->
  <section id="sob-footer">
   <div></div>
@@ -337,15 +479,17 @@
           
           <div class="col-lg-3 col-md-6 footer-contact">   
             <div>
-              <img class="logo-footer" src="assets/imgs/sebrae50503.png" alt="Sebrae Ceará">
+              <img class="logo-footer" src="assets/imgs/logo-sebrae-menu.png" alt="Sebrae Ceará">
             </div> 
             <h4>Endereço</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Contato:</strong> 0800 570 0800<br>
-              <strong>Email:</strong> sebrae@email.com<br>
+              Avenida Monsenhor Tabosa, 777 <br>
+              Praia de Iracema <br>
+              Fortaleza - Ceará <br>
+              CEP: 60165011 <br> <br>              
+              
+              <strong>Central de Relacionamento</strong> <br>  0800 570 0800<br>
+              
             </p>            
           </div>
 
@@ -356,7 +500,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Material</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Fale Conosco</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Soluções</a></li>
-              
             </ul>
           </div>
 
@@ -386,7 +529,7 @@
                 <a href="https://www.linkedin.com/company/sebraece/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
 <br><br>
                 <div class="copyright">
-                  Todos os direitos reservados &copy;  <strong><span>Sebrae Ceará</span></strong>.          
+                  Todos os direitos reservados <br> &copy;  <strong><span>Sebrae Ceará</span></strong>.          
                 </div>
               </div>
             </div>
@@ -432,6 +575,11 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/pesquisa.js"></script>
+
+    <!-- JavaScript Slide-box-->
+    <script src="assets/js/script.js"></script>
+    <!-- Swiper JS Slide-box-->
+     <script src="assets/js/swiper-bundle.min.js"></script>
 
 </body>
 
