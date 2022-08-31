@@ -2224,7 +2224,6 @@ text-align: center;
   border-radius: 50px;
 }
 
-
 #card-mat{
   border: solid 5px #fff;
   width: 50%;
@@ -2236,8 +2235,9 @@ text-align: center;
  }
 
  #card-mat p{
+  color: #005db9;
   font-size: 14px;
-  text-align: justify;
+  text-align: center;
   position: relative;
   padding-left: 2%;
   padding-right: 2%;
