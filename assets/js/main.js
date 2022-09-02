@@ -8,7 +8,7 @@
   "use strict";
 
   /**
-   * Easy selector helper function
+   * Função auxiliar de seletor fácil
    */
   const select = (el, all = false) => {
     el = el.trim()
@@ -20,7 +20,7 @@
   }
 
   /**
-   * Easy event listener function
+   * Função de ouvinte de eventos fácil
    */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
@@ -34,14 +34,14 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Fácil no ouvinte de eventos de rolagem
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
   /**
-   * Navbar links active state on scroll
+   * A barra de navegação vincula o estado ativo na rolagem
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
@@ -61,7 +61,7 @@
   onscroll(document, navbarlinksActive)
 
   /**
-   * Scrolls to an element with header offset
+   * Rola para um elemento com deslocamento de cabeçalho
    */
   const scrollto = (el) => {
     let header = select('#header')
@@ -79,7 +79,7 @@
   }
 
   /**
-   * Toggle .header-scrolled class to #header when page is scrolled
+   * Alterne a classe .header-scrolled para #header quando a página for rolada
    */
   let selectHeader = select('#header')
   if (selectHeader) {
@@ -95,7 +95,7 @@
   }
 
   /**
-   * Back to top button
+   * Botão voltar ao topo
    */
   let backtotop = select('.back-to-top')
   if (backtotop) {
@@ -111,7 +111,7 @@
   }
 
   /**
-   * Mobile nav toggle
+   * Alternância de navegação móvel
    */
   on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
@@ -120,7 +120,7 @@
   })
 
   /**
-   * Mobile nav dropdowns activate
+   * As listas suspensas de navegação móvel são ativadas
    */
   on('click', '.navbar .dropdown > a', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
@@ -130,7 +130,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scrool com deslocamento em links com um nome de classe .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -177,7 +177,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * Isótopo de portfólio e filtro
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');

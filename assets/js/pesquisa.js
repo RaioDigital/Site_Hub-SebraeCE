@@ -1,7 +1,7 @@
 
 const INPUT_BUSCA = document.getElementById("pesquisa");
 /*const DOWNLOAD = document.getElementById('materiais');*/
-const SERVICES = document.getElementById("services");
+const SERVICES = document.getElementById("slide-box");
 
 INPUT_BUSCA.addEventListener('keyup',()=>{
    let expressao = INPUT_BUSCA.value.toLowerCase();
@@ -10,7 +10,7 @@ INPUT_BUSCA.addEventListener('keyup',()=>{
     return;
    }
 
-   let containerBox = document.querySelectorAll(".box");
+   let containerBox = document.querySelectorAll(".card");
    
    console.log(containerBox);
 
