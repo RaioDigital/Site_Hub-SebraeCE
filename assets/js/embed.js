@@ -12,5 +12,5 @@ function download3() {
 } 
 
 function download4() {
-    var novaJanela = window.open("https://lp.sebraeceara.com.br/e-book-5-passos-para-fazer-a-transformacao-digital", "_blank","width=505,height=1100,left=" + (screen.width - 800) / 2 + ",top=" + (screen.innerHeight - 600) / 2);
+    var novaJanela = window.open("https://lp.sebraeceara.com.br/e-book-caderno-de-ferramentas", "_blank","width=505,height=1100,left=" + (screen.width - 800) / 2 + ",top=" + (screen.innerHeight - 600) / 2);
 } 
