@@ -3,84 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>display: block;</h1>
-<section class="container">
-	<div class="item">1</div>
-	<div class="item">2</div>
-	<div class="item">3</div>
-	<div class="item">4</div>
-</section>
+    <main class="container">
 
-<h1>display: flex;</h1>
-<section class="container flex">
-	<div class="item">1</div>
-	<div class="item">2</div>
-	<div class="item">3</div>
-	<div class="item">4</div>
-</section>
+          <div class="bloco1">           
+            <h1>1</h1>
+            <p>of three columns</p>
+            <button>Teste</button>
+          </div>
 
-<h1>display: flex;</h1>
-<section class="container flex">
-	<div class="item">
-        <div id="btn-box" class="btn-wrap">
-            <p>Consultoria personalizada com uma avaliação especializada do perfil da sua marca.</p>
-            <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" id="btn-buy" class="btn-buy">CADASTRE-SE</a>
+          <div class="bloco2">
+            <h1>2</h1>
+            <p>of three columns</p>
+            <button>Teste</button>
           </div>
-    </div><div class="item">
-        <div id="btn-box" class="btn-wrap">
-            <p>Consultoria personalizada com uma avaliação especializada do perfil da sua marca.</p>
-            <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" id="btn-buy" class="btn-buy">CADASTRE-SE</a>
+          
+          <div class="bloco3" >
+            <h3>3</h3>
+            <p>of three columns</p>
+            <button>Teste</button>
           </div>
+
+          <div class="bloco4">
+            <h3>4</h3>
+            <p>of three columns</p>
+            <button>Teste</button>
+          </div>
+
+          <div class="bloco5">
+            <h3>5</h3>
+            <p>of three columns</p>
+            <button>Teste</button>
+          </div>
+
+          <div class="bloco6">
+            <h3>6</h3>
+            <p>of three columns</p>
+            <button>Teste</button>
+          </div>
+          
+    </main>
+
+<section>
+      <h1>Teste Page</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Todos </button>
+  <button class="btn" onclick="filterSelection('nature')"> Natural</button>
+  <button class="btn" onclick="filterSelection('Carros')"> Carros</button>
+  <button class="btn" onclick="filterSelection('pessoas')"> pessoas</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+
+  <div class="column nature">
+    <div class="content">
+      <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Mountains</h4>
+      <p>Textos de teste Textos de teste Textos de teste Textos de teste Textos de teste Textos de teste Textos de teste Textos de teste </p>
     </div>
-    <div class="item">
-        <div id="btn-box" class="btn-wrap">
-            <p>Consultoria personalizada com uma avaliação especializada do perfil da sua marca.</p>
-            <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" id="btn-buy" class="btn-buy">CADASTRE-SE</a>
-          </div>
+  </div>
+  
+  <div class="column nature">
+    <div class="content">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..Lorem ipsum dolor..Lorem ipsum dolor..Lorem ipsum dolor..Lorem ipsum dolor..Lorem ipsum dolor..</p>
     </div>
-    <div class="item">
-        <div id="btn-box" class="btn-wrap">
-            <p>Consultoria personalizada com uma avaliação especializada do perfil da sua marca.</p>
-            <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" id="btn-buy" class="btn-buy">CADASTRE-SE</a>
-          </div>
+  </div>
+  
+  <div class="column nature">
+    <div class="content">
+    <img src="https://www.w3schools.com/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
     </div>
-    <div class="item">
-        <div id="btn-box" class="btn-wrap">
-            <p>Consultoria personalizada com uma avaliação especializada do perfil da sua marca.</p>
-            <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" id="btn-buy" class="btn-buy">CADASTRE-SE</a>
-          </div>
+  </div>
+  
+  <div class="column Carros">
+    <div class="content">
+      <img src="https://www.w3schools.com/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
     </div>
-    <div class="item">
-        <div id="btn-box" class="btn-wrap">
-            <p>Consultoria personalizada com uma avaliação especializada do perfil da sua marca.</p>
-            <a href="https://lp.sebraeceara.com.br/analise-do-instagram" target="_blank" id="btn-buy" class="btn-buy">CADASTRE-SE</a>
-          </div>
+  </div>
+  
+  <div class="column Carros">
+    <div class="content">
+    <img src="https://www.w3schools.com/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
     </div>
+  </div>
+  
+  <div class="column Carros">
+    <div class="content">
+    <img src="https://www.w3schools.com/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column pessoas">
+    <div class="content">
+      <img src="https://www.w3schools.com/w3images/people3.jpg" alt="Car" 		style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column pessoas">
+    <div class="content">
+    <img src="https://www.w3schools.com/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column pessoas">
+    <div class="content">
+    <img src="https://www.w3schools.com/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
 </section>
-
-<h1>display: flex;</h1>
-<section class="container flex flex-wrap">
-	<div class="item">Teste 1</div>
-	<div class="item">Teste 2</div>
-	<div class="item">Teste 3</div>
-	<div class="item">Teste 4</div>
-	<div class="item">Teste 5</div>
-	<div class="item">Teste 6</div>
-	<div class="item">Teste 7</div>
-</section>
-
-<h1>display: flex; // flex-item-1</h1>
-<section class="container flex">
-	<div class="item flex-item-1">Teste 1</div>
-	<div class="item flex-item-1">Teste 2</div>
-	<div class="item flex-item-1">Teste 3</div>
-</section>
-
-
 </body>
+<script src="scripts.js"></script>
 </html>
